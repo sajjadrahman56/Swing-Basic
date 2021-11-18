@@ -9,8 +9,8 @@ public class TestJField extends JFrame implements ActionListener{
 
     ImageIcon iconJframe;
     Container container;
-      JTextField text1,text2;
-      JButton btn , btn1;
+    JTextField text1,text2;
+    JButton btn , btn1;
 
 
     TestJField()
@@ -34,11 +34,13 @@ public class TestJField extends JFrame implements ActionListener{
        container.setBackground(Color.GREEN);
         container.setLayout(null);
 
+        //text field create
         text1 = new JTextField();
         text1.setBounds(50,50,100,130);
         text1.setForeground(Color.red);
         text1.setBackground(Color.BLACK);
 
+        //Button create
         btn1 = new JButton("Click Me");
         btn1.setBounds(120,200,100,40);
         btn1.addActionListener(this);
@@ -46,6 +48,7 @@ public class TestJField extends JFrame implements ActionListener{
 
         container.add(text1);
 
+        //text field create
         text2 = new JTextField();
         text2.setBounds(260,50,100,130);
         btn = new JButton("Click Me");
@@ -56,7 +59,7 @@ public class TestJField extends JFrame implements ActionListener{
 
        text2.setBackground(Color.BLACK);
         container.add(btn);
-     container.add(text2);
+       container.add(text2);
 
 //     btn.addActionListener(new ActionListener() {
 //         @Override
