@@ -35,16 +35,17 @@ public class JlavelDemo extends JFrame {
     {
 
 
+
         c = this.getContentPane();
         c.setLayout(null);
        c.setBackground(Color.GREEN);
 
         usesrLabel = new JLabel();
-        usesrLabel.setText("Hello Samara");
+        usesrLabel.setText("Hello World");
         usesrLabel.setBounds(120,70,100,30);
         c.add(usesrLabel);
 
-        label2 = new JLabel("How are you");
+        label2 = new JLabel("How are you Everyone ");
         label2.setBounds(120,100,100,30);
         c.add(label2);
 
