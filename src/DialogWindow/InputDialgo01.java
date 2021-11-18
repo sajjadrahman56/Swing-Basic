@@ -14,9 +14,9 @@ public class InputDialgo01 {
 
 
         //******************* 4 arguments ******************
-         String f_nmae = JOptionPane.showInputDialog(null,"Enter First  name : ","Titile",JOptionPane.INFORMATION_MESSAGE);
+         String f_name = JOptionPane.showInputDialog(null,"Enter First  name : ","Titile",JOptionPane.INFORMATION_MESSAGE);
          String s_name = JOptionPane.showInputDialog("Enter your last  name : ");
-        String fullName = f_nmae+s_name;
+        String fullName = f_name+s_name;
 
         JOptionPane.showMessageDialog(null,fullName+" welcome to swing ");
 
