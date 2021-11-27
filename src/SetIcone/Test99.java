@@ -16,7 +16,7 @@ public class Test99 extends JFrame {
     public void initIcone2()
     {
 
-        //c = container 
+        //c = container
         c = this.getContentPane();
         c.setBackground(Color.lightGray);
         icon = new ImageIcon(getClass().getResource("dp2.png"));

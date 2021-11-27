@@ -40,7 +40,8 @@ public class MultiLevelAndFont extends JFrame{
         container.add(label1);
 
 
-        //img = new ImageIcon(getClass().getResource("dld.png"));
+        //
+        img = new ImageIcon(getClass().getResource("dld.png"));
        // img = new ImageIcon("dld.png".getImage()getScaleInstance);
         // img  = new ImageIcon(("sajjad.jpg").getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT)) ;
 
